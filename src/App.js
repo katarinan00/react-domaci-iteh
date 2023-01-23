@@ -139,7 +139,7 @@ function App() {
   return (
     <div>
     <BrowserRouter>
-        <NavBar>pretrazi={pretrazi}</NavBar>
+        <NavBar pretrazi={pretrazi}></NavBar>
         <Routes>
             <Route path="/" element={<Pocetna></Pocetna>}></Route>
             <Route path="/restorani" element={<Restorani kriterijum={krterijumPretrage} restorani={currentPosts} dodaj={dodaj} >    
